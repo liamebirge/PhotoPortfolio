@@ -80,3 +80,94 @@ a#eMail:hover{
 	background-image: url(Data/Icons/emailHover.png);
 	cursor: pointer;
 }
+#paraText{
+	margin:30px;
+	width:200px;
+	text-align: center;
+}
+#indexAboutMe{
+	margin:50px;
+	width:97%;
+	height:auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#indexAboutMe h5{
+	align-self: flex-start;
+}
+#indexAbout{
+	text-align: center;
+	width:350px;
+	margin-top:20px;
+	margin:10px;
+}
+#indexAbout p{
+	color:darkgrey;
+	font-size: 18px;
+}
+#indexAboutAside img{
+	height:auto;
+	width:260px;
+	margin:20px;
+}
+#indexAboutAside p{
+	width:260px;
+	text-align: center;
+	margin:20px;
+	margin-top:5px;
+}
+@media screen and (min-width: 600px) {
+    section#indexSection {
+        display: flex;
+        flex-direction: column;
+    }
+}
+#indexAboutPortfolio{
+	width:97%;
+	height:auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin:20px;
+}
+#indexAboutPortfolio img{
+	height:300px;
+	width:auto;
+	margin:20px;
+}
+#portfolioAbout{
+	width:300px;
+	text-align: center;
+}
+#portfolioAbout p{
+	color:darkgrey;
+	font-size: 18px;
+}
+#portfolioAbout button{
+	height:30px;
+	width:150px;
+	border:1px solid grey;
+	background-color: darkgrey;
+	border-radius: 3px;
+}
+#portfolioAbout button:hover{
+	border-color: darkgrey;
+	background-color: grey;
+}
+#parallax2{
+	margin:-10px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding:10px;
+	background-image: url("../Data/Photos/img (42).JPG");
+	height: 500px; 
+	background-attachment: fixed;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}

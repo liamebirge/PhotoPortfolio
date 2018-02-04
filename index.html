@@ -5,69 +5,7 @@
 		<script src="JS/script.js" type="text/javascript"></script>
 		<link rel="stylesheet" href="CSS/style.css" type="text/css" />
 		<style type="text/css">
-			#paraText{
-				margin:30px;
-				width:200px;
-				text-align: center;
-			}
-			#indexAboutMe{
-				margin:50px;
-				width:97%;
-				height:auto;
-				display: flex;
-				flex-direction: row;
-				justify-content: center;
-				flex-wrap: wrap;
-			}
-			#indexAboutMe h5{
-				align-self: flex-start;
-			}
-			#indexAbout{
-				text-align: center;
-				width:350px;
-				margin-top:20px;
-				margin:10px;
-				margin-right:100px;
-			}
-			#indexAbout p{
-				color:darkgrey;
-				font-size: 18px;
-			}
-			#indexAboutAside{
-
-			}
-			#indexAboutAside img{
-				height:auto;
-				width:260px;
-				margin:20px;
-			}
-			#indexAboutAside p{
-				width:260px;
-				text-align: center;
-				margin:20px;
-				margin-top:5px;
-			}
-			.icons a{
-				padding:15px;
-				background-repeat: no-repeat;
-				background-size: contain;
-				background-color: none;
-				background-position: center;
-			}
-			a#ig{
-				background-image: url(Data/Icons/insta.png);
-			}
-			a#eMail{
-				background-image: url(Data/Icons/email.png);
-			}
-			a#ig:hover{
-				background-image: url(Data/Icons/instaHover.png);
-				cursor: pointer;
-			}
-			a#eMail:hover{
-				background-image: url(Data/Icons/emailHover.png);
-				cursor: pointer;
-			}
+			
 		</style>
 	</head>
 	<body>
@@ -82,7 +20,7 @@
 				<a href="HTML/about.html" target="_self">About</a>
 			</div><hr />
 		</header>
-		<section style="min-height:800px;">
+		<section id="indexSection" style="min-height:900px;">
 			<div class="parallax1">
 				<div id="paraText">
 					<p>Puerto Vallarta, Mexico 2016</p>
@@ -108,9 +46,18 @@
 					</p>
 				</div>
 			</div>
-			<div id="aboutPortfolio">
-				
+			<div id="indexAboutPortfolio">
+				<div id="portfolioAbout">
+					<h5><u>Portfolio</u></h5>
+					<h2>Recent Projects</h2>
+					<p>
+						I most recently traveled to Yellowstone National Park and had the amazing opportunity to photograph its beautiful landscapes, amazing plants and fauna. Visit my portfolio for photos from Yellowstone and other cool voyages!
+					</p>
+					<button onclick="gotoSame('HTML/gallery.html')">View Portfolio</button>
+				</div>
+				<img src="Data/Photos/img (3).JPG" alt="Portfolio" id="portfolioImage" />
 			</div>
+			<div id="parallax2"></div>
 		</section>
 		<footer>
 			Liam English-Birge Photography Portfolio
