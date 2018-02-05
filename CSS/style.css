@@ -171,3 +171,6 @@ a#eMail:hover{
 	flex-direction: column;
 	justify-content: flex-end;
 }
+img.indexImage {
+	border-radius: 3px;
+}
