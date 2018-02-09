@@ -29,27 +29,31 @@ header hr{
 #nav a:hover{
 	background-color: lightgrey;
 }
-.parallax1 { 
-	margin:-10px;
-	margin-top:10px;
-	padding:10px;
-	background-image: url("../Data/Photos/img (1).JPG");
-	height: 500px; 
+.parallax{
 	background-attachment: fixed;
-	background-position: left center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin:-10px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding:10px;
+	min-height: 200px;
+}
+#parallax1 { 
+	background-image: url("../Data/Photos/img (1).JPG");
+	background-position: left center;
+	height: 500px; 
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 }
-.parallax1 a{
+#parallax1 a{
 	color:white;
 	width:100px;
 	height:20px;
 	text-align: center;
 }
-.parallax1 a:hover{
+#parallax1 a:hover{
 	color:grey;
 }
 footer{
@@ -155,18 +159,12 @@ a#eMail:hover{
 #portfolioAbout button:hover{
 	border-color: darkgrey;
 	background-color: grey;
+	cursor: pointer;
 }
 #parallax2{
-	margin:-10px;
-	margin-top:10px;
-	margin-bottom: 10px;
-	padding:10px;
 	background-image: url("../Data/Photos/img (42).JPG");
-	height: 500px; 
-	background-attachment: fixed;
 	background-position: left center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	height: 400px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
